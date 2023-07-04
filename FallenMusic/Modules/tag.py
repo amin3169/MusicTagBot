@@ -3,7 +3,7 @@ from telethon import TelegramClient, events
 import random, asyncio, logging
 from telethon import Button
 import config
-from FallenMusic import dejavu
+from dejavu import dejavu
 
 anlik_calisan = []
 tekli_calisan = []
