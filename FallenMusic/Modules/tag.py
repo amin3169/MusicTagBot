@@ -2,88 +2,20 @@ from telethon.tl.types import ChannelParticipantsAdmins
 from telethon import TelegramClient, events
 import random, asyncio, logging
 from telethon import Button
-from Config import Config 
+import config
 
 logging.basicConfig(level=logging.INFO,format='%(name)s - [%(levelname)s] - %(message)s')
 LOGGER = logging.getLogger(__name__)
 
-api_id = Config.API_ID
-api_hash = Config.API_HASH
-bot_token = Config.BOT_TOKEN
+api_id = config.API_ID
+api_hash = config.API_HASH
+bot_token = config.BOT_TOKEN
 dejavu = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 
 anlik_calisan = []
 tekli_calisan = []
   
-@dejavu.on(events.NewMessage(pattern="^/help$"))
-async def start(event):
-     await event.reply(f"**[{Config.BOT_NAME}](t.me/{Config.BOT_USERNAME})-un kömək “📚 Əmrlər„ bunlardır.⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**㋡⇰ /tag “səbəb„ - 5-li Tag Atışları.**\n**㋡⇰ /etag “səbəb„ - Emoji ilə etiketlər.**\n**㋡⇰ /stag “səbəb„ - Söz'lü Tag etiketlər.**\n**㋡⇰ /tektag “səbəb„ - Üzvləri Tək-Tək etiketlər.**\n**㋡⇰ /usta “səbəb„ - usta Tag Bot'una aid Tag etiketlər.**\n**㋡⇰ /admins “səbəb„ - İdarəçilər Tək-Tək etiketlər.**\n**㋡⇰ /cancel - Tag Ələməyi Dayandır.**\n•━━━━━━━━•••━━━━━━━━•",
-                       buttons=(
-	            [Button.url("💡Bot Keç", f"https://t.me/{Config.BOT_USERNAME}?start=start")],
-	            [Button.url('💬 Qrup', f'https://t.me/{Config.SUPPORT_GROUP}'),
-		           Button.url('📺 Kanal', f'https://t.me/{Config.SUPPORT_CHANNEL}')],
-              ),
-              link_preview=False)
-       
-@dejavu.on(events.NewMessage(pattern="^/start$"))
-async def start(event):
-  if event.is_private:
-    async for usr in dejavu.iter_participants(event.chat_id):
-     user = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.reply(f"◆━━━━━━━▣✦▣━━━━━━━━◆\n🤖 Salam {user} xoş gördük.\n\nMənim adım [{Config.BOT_NAME}](t.me/{Config.BOT_USERNAME}) mən faydalı xüsusiyyətləri olan teleqram etiket botuyam.\nQruplarda üzvləri etiket etmək səlahiyyətinə sahibəm.\n\n🤖 Ətraflı məlumat üçün “📚 Əmrlər„ bölməsinə daxil olun.\n◆━━━━━━━▣✦▣━━━━━━━━◆",
-                       buttons=(
-	            [Button.inline(f"📚 Əmrlər", data="help"),
-	             Button.inline(f"📑 Təkliflər", data="reklam")],
-              [Button.url('✜ Qrupa əlavə et ✜',f"http://t.me/{Config.BOT_USERNAME}?startgroup=new")],
-	            [Button.url('💬 Qrup', f"https://t.me/{Config.SUPPORT_CHANNEL}"),
-               Button.url('📺 Kanal', f'https://t.me/{Config.SUPPORT_CHANNEL}')],
-              ),
-              link_preview=False)
-     
-  if event.is_group:
-    return await dejavu.send_message(event.chat_id, f"** [{Config.BOT_NAME}](t.me/{Config.BOT_USERNAME})'un əmrlər üçün?\nBot'a daxil olub.**",
-                                     buttons=(
-              [Button.url("💡Bot Keç", f"https://t.me/{Config.BOT_USERNAME}?start=start")],
-	            [Button.url('💬 Qrup', f'https://t.me/{Config.SUPPORT_GROUP}'),
-		           Button.url('📺 Kanal', f'https://t.me/{Config.SUPPORT_CHANNEL}')],
-              ),
-              link_preview=False)
-
-@dejavu.on(events.callbackquery.CallbackQuery(data="start"))
-async def handler(event):
-    async for usr in dejavu.iter_participants(event.chat_id):
-     user = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"◆━━━━━━━▣✦▣━━━━━━━━◆\n🤖 Salam {user} xoş gördük.\n\nMənim adım [{Config.BOT_NAME}](t.me/{Config.BOT_USERNAME}) mən faydalı xüsusiyyətləri olan teleqram etiket botuyam.\nQruplarda üzvləri etiket etmək səlahiyyətinə sahibəm.\n\n🤖 Ətraflı məlumat üçün “📚 Əmrlər„ bölməsinə daxil olun.\n◆━━━━━━━▣✦▣━━━━━━━━◆",
-                      buttons=(
-	            [Button.inline(f'📚 Əmrlər', data="help"),
-	             Button.inline(f'📑 Təkliflər', data="reklam")],
-              [Button.url('✜ Qrupa əlavə et ✜',f"http://t.me/{Config.BOT_USERNAME}?startgroup=new")],
-	            [Button.url('💬 Qrup', f'https://t.me/{Config.SUPPORT_GROUP}'),
-               Button.url('📺 Kanal', f'https://t.me/{Config.SUPPORT_CHANNEL}')],
-              ),
-              link_preview=False)
-
-@dejavu.on(events.callbackquery.CallbackQuery(data="help"))
-async def handler(event):	
-    await event.edit(f"**[{Config.BOT_NAME}](t.me/{Config.BOT_USERNAME})-un kömək “📚 Əmrlər„ bunlardır.⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**㋡⇰ /tag “səbəb„ - 5-li Tag Atışları.**\n**㋡⇰ /etag “səbəb„ - Emoji ilə etiketlər.**\n**㋡⇰ /stag “səbəb„ - Söz'lü Tag etiketlər.**\n**㋡⇰ /tektag “səbəb„ - Üzvləri Tək-Tək etiketlər.**\n**㋡⇰ /usta “səbəb„ - usta Tag Bot'una aid Tag etiketlər.**\n**㋡⇰ /admins “səbəb„ - İdarəçilər Tək-Tək etiketlər.**\n**㋡⇰ /cancel - Tag Ələməyi Dayandır.**\n•━━━━━━━━•••━━━━━━━━•",
-                     buttons=(
-	            [Button.inline(f"◅ Geri", data="start"),
-               Button.url('📺 Kanal', f"https://t.me/{Config.SUPPORT_CHANNEL}")],
-              ),
-              link_preview=False)
-
-@dejavu.on(events.callbackquery.CallbackQuery(data="reklam"))
-async def handler(event):	
-    await event.edit(f"**[{Config.BOT_NAME}](t.me/{Config.BOT_USERNAME}) Təkliflər üçün sahib'lə əlaqə saxlaya bilərsiniz.**",
-                     buttons=(
-		          [Button.url('🎉 Sahib', f'https://t.me/{Config.OWNER_USERNAME}')],
-	            [Button.url('💬 Qrup', f'https://t.me/{Config.SUPPORT_GROUP}'),
-                Button.url('📺 Kanal', f"https://t.me/{Config.SUPPORT_CHANNEL}")],
-	            [Button.inline(f"◅ Geri", data="start")]
-              ),
-              link_preview=False)
-    
 @dejavu.on(events.NewMessage(pattern='^/cancel'))
 async def cancel(event):
   global anlik_calisan
