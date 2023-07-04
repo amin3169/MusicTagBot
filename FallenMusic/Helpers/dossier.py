@@ -1,18 +1,18 @@
 from FallenMusic import BOT_NAME
 
 PM_START_TEXT = """
-Salam {0}, 🥀
-๏ Bu** {1} !
+Salam {0}, mənim adım {1}.
 
 ──────────────────
 Mənim bəzi faydalı xüsusiyyətləri olan teleqram yayım və tag botuyam. Youtube, Spotify, Resso, AppleMusic, Soundcloud və s. kimi platformaları istifadə edirəm.
 
-➻ Məni qruplarınıza əlavə etməkdən çəkinməyin. 
+☺ Məni qruplarınıza əlavə etməkdən çəkinməyin. 
+──────────────────
 """
 
 START_TEXT = """
-**Salam** {0}, 🥀
-  {1} İndi mahnı oxuya bilər {2}.
+Salam {0}
+{1} İndi mahnı oxuya bilər {2}.
 
 ──────────────────
 ➻ Mənim haqqımda kömək etmək üçün və ya bir şey soruşmaq istəyirsinizsə, mənim [Dəstək Çatıma]({3}) qoşula bilərsiniz.
@@ -63,7 +63,7 @@ HELP_DEV = f"""
 """
 TAG_MSJ = f"""
 •━━━━━━━━•••━━━━━━━━•
-“📚 Əmrlər„ bunlardır.⤵**
+**“📚 Əmrlər„ bunlardır.⤵**
 •━━━━━━━━•••━━━━━━━━•
 **㋡⇰ /tag “səbəb„ - 5-li Tag Atışları.**
 **㋡⇰ /etag “səbəb„ - Emoji ilə etiketlər.**
