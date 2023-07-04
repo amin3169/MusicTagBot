@@ -85,5 +85,5 @@ async def tagbutton(_, query: CallbackQuery):
     reply_markup=InlineKeyboardMarkup([
     [
     InlineKeyboardButton("◄◐ Geri", callback_data="fallen_home"),
-    InlineKeyboardButton("🚀 Dəstək", url=config.SUPPORT_CHANNEL)
+    InlineKeyboardButton("📨 Kanal", url=config.SUPPORT_CHANNEL)
     ]]))
