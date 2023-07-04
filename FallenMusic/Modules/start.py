@@ -81,7 +81,7 @@ async def fallen_st(_, message: Message):
         )
 @app.on_callback_query(filters.regex("tagbutton"))
 async def tagbutton(_, query: CallbackQuery):
-    await query.edit_message_text(f"──────────────────────\n{query.from_user.mention} kömək “📚 Əmrlər„ bunlardır.⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**㋡⇰ /tag “səbəb„ - 5-li Tag Atışları.**\n**㋡⇰ /etag “səbəb„ - Emoji ilə etiketlər.**\n**㋡⇰ /stag “səbəb„ - Söz'lü Tag etiketlər.**\n**㋡⇰ /tektag “səbəb„ - Üzvləri Tək-Tək etiketlər.**\n**㋡⇰ /usta “səbəb„ - usta Tag Bot'una aid Tag etiketlər.**\n**㋡⇰ /admins “səbəb„ - İdarəçilər Tək-Tək etiketlər.**\n**㋡⇰ /cancel - Tag Ələməyi Dayandır.**\n──────────────────────", 
+    await query.edit_message_text(TAG_MSJ, 
     reply_markup=InlineKeyboardMarkup([
     [
     InlineKeyboardButton("◄◐ Geri", callback_data="fallen_home"),
