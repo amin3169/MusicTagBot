@@ -45,7 +45,12 @@
         "description": "Start seklin jpg formada daxil edin",
         "value": "",
         "required": true
-      }, 
+      },
+        "SUPPORT_CHANNEL": {
+        "description": "Telegram dəstək kanalınızın linki. ",
+        "value": "",
+        "required": true
+      },
       "SUDO_USERS": {
         "description": "Sudo kimi əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
         "value": "",
