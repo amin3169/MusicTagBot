@@ -465,12 +465,7 @@ usta = ('Buda kimmiş də miş miş👀😁😍','🙄👉🤲Aağil','🙄 Sən
 async def handler(event):
   if str(event.sender_id) not in config.OWNER_ID:
     return await event.reply("__Sən mənə sahib deyilsən!__")
-  await event.reply('**Bot İşləyir Narahat olmayın**\n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
-                    buttons=(
-    [Button.url('DegGixM','https://t.me/DegGixM'),
-	   Button.url('Aliyev Ali','https://t.me/MUCVE_M')],
-    ),
-    link_preview=False)
+  await event.reply('**Bot İşləyir Narahat olmayın**\n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯')
 
 print(">> Bot işləyir narahat olmayın.\n\n@DejavuTeam & @DejavuSuopport Məlumat almaq üçün <<")
 dejavu.run_until_disconnected()
