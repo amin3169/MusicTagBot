@@ -36,6 +36,16 @@
         "value": "",
         "required": true
       },
+        "PING_IMG": {
+        "description": "Ping seklin jpg formada daxil edin",
+        "value": "",
+        "required": true
+      },
+        "START_IMG": {
+        "description": "Start seklin jpg formada daxil edin",
+        "value": "",
+        "required": true
+      }, 
       "SUDO_USERS": {
         "description": "Sudo kimi əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
         "value": "",
