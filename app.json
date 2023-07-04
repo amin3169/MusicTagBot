@@ -1,7 +1,7 @@
 {
-    "name": "RaviVeyi ダ Music",
-    "description": "Pyrogram və Py-Tgcalls ilə Python dilində yazılmış teleqram videoçatları üçün VC Player Botu.",
-    "logo": "https://te.legra.ph/file/f039e00ccd18d625f3771.jpg",
+    "name": "Telegram Music ダ Tag Bot",
+    "description": "Pyrogram və Py-Tgcalls ilə Python dilində yazılmış teleqram videoçatları & tag üçün VC Player & Tag Botu.",
+    "logo": "https://graph.org/file/35444b7d40fff28719e62.jpg",
     "keywords": [
     "python3",
     "telegram",
