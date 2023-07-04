@@ -16,7 +16,7 @@ dejavu = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 anlik_calisan = []
 tekli_calisan = []
   
-@dejavu.on(events.NewMessage(pattern='^/cancel'))
+@dejavu.on_message(events.NewMessage(pattern='^/cancel'))
 async def cancel(event):
   global anlik_calisan
   anlik_calisan.remove(event.chat_id)
