@@ -463,7 +463,7 @@ usta = ('Buda kimmiş də miş miş👀😁😍','🙄👉🤲Aağil','🙄 Sən
 
 @dejavu.on(events.NewMessage(pattern='/offline'))
 async def handler(event):
-  if str(event.sender_id) not in Config.Dejavu:
+  if str(event.sender_id) not in config.OWNER_ID:
     return await event.reply("__Sən mənə sahib deyilsən!__")
   await event.reply('**Bot İşləyir Narahat olmayın**\n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
                     buttons=(
