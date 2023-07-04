@@ -3,11 +3,18 @@ from telethon import TelegramClient, events
 import random, asyncio, logging
 from telethon import Button
 import config
-from FallenMusic.dejavu import dejavu
 
 anlik_calisan = []
 tekli_calisan = []
-  
+
+logging.basicConfig(level=logging.INFO,format='%(name)s - [%(levelname)s] - %(message)s')
+LOGGER = logging.getLogger(__name__)
+
+api_id = config.API_ID
+api_hash = config.API_HASH
+bot_token = config.BOT_TOKEN
+dejavu = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
+
 @dejavu.on(events.NewMessage(pattern='^/cancel'))
 async def cancel(event):
   global anlik_calisan
@@ -458,3 +465,6 @@ async def handler(event):
   if str(event.sender_id) not in config.OWNER_ID:
     return await event.reply("__Sən mənə sahib deyilsən!__")
   await event.reply('**Bot İşləyir Narahat olmayın**\n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯')
+
+print(">> Bot işləyir narahat olmayın.\n\n@DejavuTeam & @DejavuSuopport Məlumat almaq üçün <<")
+dejavu.run_until_disconnected()
