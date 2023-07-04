@@ -8,7 +8,7 @@ from FallenMusic import dejavu
 anlik_calisan = []
 tekli_calisan = []
   
-@dejavu.on_message(events.NewMessage(pattern='^/cancel'))
+@dejavu.on(events.NewMessage(pattern='^/cancel'))
 async def cancel(event):
   global anlik_calisan
   anlik_calisan.remove(event.chat_id)
