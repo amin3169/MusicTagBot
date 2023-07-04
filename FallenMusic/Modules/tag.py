@@ -2,8 +2,8 @@ from telethon.tl.types import ChannelParticipantsAdmins
 from telethon import TelegramClient, events
 import random, asyncio, logging
 from telethon import Button
-import config
-from config import Config 
+
+from Config import Config 
 
 anlik_calisan = []
 tekli_calisan = []
@@ -463,7 +463,7 @@ usta = ('Buda kimmiş də miş miş👀😁😍','🙄👉🤲Aağil','🙄 Sən
 
 @dejavu.on(events.NewMessage(pattern='/offline'))
 async def handler(event):
-  if str(event.sender_id) not in config.OWNER_ID:
+  if str(event.sender_id) not in Config.OWNER_ID:
     return await event.reply("__Sən mənə sahib deyilsən!__")
   await event.reply('**Bot İşləyir Narahat olmayın**\n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯')
 
