@@ -1,6 +1,5 @@
 from os import getenv
 from dotenv import load_dotenv
-import os
 
 load_dotenv()
 API_ID = int(getenv("API_ID"))
@@ -17,8 +16,3 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 
 
 FAILED = "https://graph.org/file/35444b7d40fff28719e62.jpg"
-
-class Config():
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
