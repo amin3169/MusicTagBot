@@ -40,8 +40,8 @@ pm_buttons = [
 
 helpmenu = [
     [
-    InlineKeyboardButton(text="📑 Bot Əmrləri",callback_data="fallen_cb help",)
-    InlineKeyboardButton(text="🗣 Etiketlər ",callback_data="fallen_cb help",)
+    InlineKeyboardButton(text="📑 Bot Əmrləri",callback_data="fallen_cb help",),
+    InlineKeyboardButton(text="🗣 Etiketlər ",callback_data="tagbutton",)
     ],[
     InlineKeyboardButton(text="📋 Bot Adminlər", callback_data="fallen_cb sudo"),
     InlineKeyboardButton(text="♛ Bot Sahibi", callback_data="fallen_cb owner"),
