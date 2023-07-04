@@ -5,7 +5,7 @@ Salam {0}, 🥀
 ๏ Bu** {1} !
 
 ──────────────────
-Mənim bəzi faydalı xüsusiyyətləri olan teleqram yayım botuyam. Youtube, Spotify, Resso, AppleMusic, Soundcloud və s. kimi platformaları istifadə edirəm.
+Mənim bəzi faydalı xüsusiyyətləri olan teleqram yayım və tag botuyam. Youtube, Spotify, Resso, AppleMusic, Soundcloud və s. kimi platformaları istifadə edirəm.
 
 ➻ Məni qruplarınıza əlavə etməkdən çəkinməyin. 
 """
@@ -59,5 +59,18 @@ HELP_DEV = f"""
 ๏ /leaveall : Köməkçi hesabına bütün söhbətləri tərk etməyi əmr edir.
 ๏ /addsudo [İstifadəçi adı və ya istifadəçiyə cavab] : İstifadəçini sudo users lisr-ə əlavə edin.
 ๏ /rmsudo [İstifadəçi adı və ya istifadəçiyə cavab] : İstifadəçini sudo istifadəçiləri siyahısından çıxarın.
+•━━━━━━━━•••━━━━━━━━•
+"""
+TAG_MSJ = f"""
+•━━━━━━━━•••━━━━━━━━•
+“📚 Əmrlər„ bunlardır.⤵**
+•━━━━━━━━•••━━━━━━━━•
+**㋡⇰ /tag “səbəb„ - 5-li Tag Atışları.**
+**㋡⇰ /etag “səbəb„ - Emoji ilə etiketlər.**
+**㋡⇰ /stag “səbəb„ - Söz'lü Tag etiketlər.**
+**㋡⇰ /tektag “səbəb„ - Üzvləri Tək-Tək etiketlər.**
+**㋡⇰ /usta “səbəb„ - usta Tag Bot'una aid Tag etiketlər.**
+**㋡⇰ /admins “səbəb„ - İdarəçilər Tək-Tək etiketlər.**
+**㋡⇰ /cancel - Tag Ələməyi Dayandır.**
 •━━━━━━━━•••━━━━━━━━•
 """
