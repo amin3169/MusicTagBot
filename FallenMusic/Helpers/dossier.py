@@ -69,7 +69,7 @@ TAG_MSJ = f"""
 **㋡⇰ /etag “səbəb„ - Emoji ilə etiketlər.**
 **㋡⇰ /stag “səbəb„ - Söz'lü Tag etiketlər.**
 **㋡⇰ /tektag “səbəb„ - Üzvləri Tək-Tək etiketlər.**
-**㋡⇰ /ctag “səbəb„ - cümle ile  etiketlər.**
+**㋡⇰ /ctag “səbəb„ - Cümle ile  etiketlər.**
 **㋡⇰ /admins “səbəb„ - İdarəçilər Tək-Tək etiketlər.**
 **㋡⇰ /cancel - Tag Ələməyi Dayandır.**
 •━━━━━━━━•••━━━━━━━━•
