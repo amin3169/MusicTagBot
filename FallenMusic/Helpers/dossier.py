@@ -1,12 +1,12 @@
 from FallenMusic import BOT_NAME
 
 PM_START_TEXT = """
-Salam {0}, mənim adım {1}.
+ꜱᴀʟᴀᴍ {0},ᴍƏɴɪᴍ ᴀᴅɪᴍ {1}.
 
 ──────────────────
-Mənim bəzi faydalı xüsusiyyətləri olan teleqram yayım və tag botuyam. Youtube, Spotify, Resso, AppleMusic, Soundcloud və s. kimi platformaları istifadə edirəm.
+ᴍƏɴ ʙƏᴢɪ ꜰᴀʏᴅᴀʟɪ xÜꜱᴜꜱɪʏʏƏᴛʟƏʀɪ ᴏʟᴀɴ ᴛᴇʟᴇQʀᴀᴍ ʏᴀʏɪᴍ ᴠƏ ᴛᴀɢ ʙᴏᴛᴜʏᴀᴍ.
 
-☺ Məni qruplarınıza əlavə etməkdən çəkinməyin. 
+📡 ᴍƏɴɪ Qʀᴜᴘʟᴀʀɪɴɪᴢᴀ ƏʟᴀᴠƏ ᴇᴛᴍƏᴋᴅƏɴ ÇƏᴋɪɴᴍƏʏɪɴ
 ──────────────────
 """
 
