@@ -36,7 +36,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ Telegram Music və Tag Bot ✯\n\n𖢵 ID : `{BOT_ID}`\n𖢵 Ad : {BOT_NAME}\n𖢵 istifadəçi adı : @{BOT_USERNAME}",
+            f"𝙈𝙖𝙭 </> 𝘼𝙘𝙩𝙞𝙤𝙣 \n\n𖢵 ID : `{BOT_ID}`\n𖢵 Ad : {BOT_NAME}\n𖢵 istifadəçi adı : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -46,7 +46,7 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ Telegram Music və Tag Bot Assistent ✯\n\n𖢵 ID : `{ASS_ID}`\n𖢵 Ad : {ASS_NAME}\n𖢵 istifadəçi adı : @{ASS_USERNAME}",
+            f"𝙈𝙖𝙭 </> 𝘼𝙘𝙩𝙞𝙤𝙣\n\n𖢵 ID : `{ASS_ID}`\n𖢵 Ad : {ASS_NAME}\n𖢵 istifadəçi adı : @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
