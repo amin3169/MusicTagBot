@@ -36,7 +36,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"𝙈𝙖𝙭 </> 𝘼𝙘𝙩𝙞𝙤𝙣 \n\n𖢵 ID : `{BOT_ID}`\n𖢵 Ad : {BOT_NAME}\n𖢵 istifadəçi adı : @{BOT_USERNAME}",
+            f"𝙈𝙖𝙭 </> 𝘼𝙘𝙩𝙞𝙤𝙣\n\n𖢵 ID : `{BOT_ID}`\n𖢵 Ad : {BOT_NAME}\n𖢵 istifadəçi adı : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -67,4 +67,4 @@ async def fallen_startup():
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(fallen_startup())
-    LOGGER.error("RaviVeyi Musiqi Botu Dayandı.")
+    LOGGER.error("𝙈𝙖𝙭 </> 𝘼𝙘𝙩𝙞𝙤𝙣 Dayandı.")
