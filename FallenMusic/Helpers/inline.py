@@ -21,7 +21,6 @@ gp_buttons = [
     ],[
      InlineKeyboardButton(text="✢ Qrupa Əlavə Et ✢",url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)
     ],[
-     InlineKeyboardButton(text="❦ Git Repo ❦", url="https://t.me/DegGixM"),
      InlineKeyboardButton(text="♚ Bot Sahibi", user_id=config.OWNER_ID),
     ],]
 
@@ -34,7 +33,6 @@ pm_buttons = [
     ],[
      InlineKeyboardButton(text="✢ Qrupa Əlavə Et ✢",url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)
     ],[
-     InlineKeyboardButton(text="❦ Git Repo ❦", url="https://t.me/DegGixM"),
      InlineKeyboardButton(text="♚ Bot Sahibi", user_id=config.OWNER_ID),
     ],]
 
