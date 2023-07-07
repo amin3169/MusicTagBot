@@ -13,12 +13,12 @@
     "env": {
       "API_ID": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "20141455",
+        "value": "22175069",
         "required": true
       },
       "API_HASH": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "994bb3655490bc9e9d9af6419cdc086a",
+        "value": "fb0445131d30d052ed23f3ec81797525",
         "required": true
       },
       "BOT_TOKEN": {
