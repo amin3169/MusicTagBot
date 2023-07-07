@@ -18,7 +18,7 @@
       },
       "API_HASH": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "fb0445131d30d052ed23f3ec81797525",
+        "value": "994bb3655490bc9e9d9af6419cdc086a",
         "required": true
       },
       "BOT_TOKEN": {
@@ -33,7 +33,7 @@
       },
       "SESSION": {
         "description": "@Telegram-dan piroqram v2 sim seansı",
-        "value": "AgCl3FrgWjnIpGP0Xdqqp_G0AxzJL1NLaTriJOLXPxTgCSLIXNZ5okcV3p-2jyFMTg4SLsxaWYJJAGdAqMciVUV102-b_bmWHk_1ol9UZ35rp5QtJ84_qqEYnydWNjYznzO61GpsCEu7EJjJKL45fIqHSQRipKLXwSGDaUMiLnh-YWFayq4cc04UoMuOLnS8sHdW_QA3bwHW2je6ckLDDFRlvEks29ImUGcO935Y0mlT4DBjR3UYmF9aSXFGprOfF802rfEoi39bT3hNYc6veMkQa7e4Hgdja5bMeiEXiJafGYGSfibboICl_Qj5l95jTd3vhE1wU-rPTlny2zsgXfW7AAAAAVs0JpQA",
+        "value": "AgB9__voUwpZdiXgtCu92SREQvEnhPw15zrVzCcl7e-ToZopKnUgoVW4vS35xpuGB-oIPiwsEy2W_qYyQksbRNr1X6xXLJ2kxazpzZmiQmdxT2tZG32a3iH-dhCM0nzyNjQWPKNYC-UAepx3AQOS-e7NioGULObz9dhCFx7LevhrMSfXXX3_6uMpQeKs2ebvuYZN0IutgHSPvuMWnHOaUwhS6IZ3LE9Oj-sr10rC4CTfAqBasGpn9lrx1fSK9f6rOfgGob1Itd9oy_AeIaswne6Jr-jpXZM9lN6vy4L6hv3Qw6y7eDH--0kQsjg5rjAlWCSOHls5pFyHD1ucrYQOMl7VAAAAAVs0JpQA",
         "required": true
       },
         "PING_IMG": {
