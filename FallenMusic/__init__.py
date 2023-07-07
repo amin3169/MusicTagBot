@@ -18,17 +18,17 @@ logging.basicConfig(
 )
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("pytgcalls").setLevel(logging.ERROR)
-LOGGER = logging.getLogger("MaxActionBot")
+LOGGER = logging.getLogger("FallenMusic")
 
 app = Client(
-    "𝙈𝙖𝙭 </> 𝘼𝙘𝙩𝙞𝙤𝙣",
+    "RaviVeyi Music Bot",
     config.API_ID,
     config.API_HASH,
     bot_token=config.BOT_TOKEN,
 )
 
 app2 = Client(
-    "𝙈𝘼𝙓 </> 𝘼𝘾𝙏𝙞𝙊𝙉 𝙋𝙍𝙊",
+    "RaviVeyi Music Bot Assistent",
     api_id=config.API_ID,
     api_hash=config.API_HASH,
     session_string=str(config.SESSION),
@@ -70,8 +70,8 @@ async def fallen_startup():
     ASS_USERNAME = getme2.username
     ASS_MENTION = getme2.mention
     try:
-        await app2.join_chat("MaxActionChat")
-        await app2.join_chat("MaxActionLog")
+        await app2.join_chat("DegGixM")
+        await app2.join_chat("DejavuTeam")
     except:
         pass
 
@@ -91,4 +91,6 @@ async def fallen_startup():
     LOGGER.info(
         "[•] \x46\x61\x6c\x6c\x65\x6e\x20\x4d\x75\x73\x69\x63\x20\x43\x6c\x69\x65\x6e\x74\x73\x20\x42\x6f\x6f\x74\x65\x64\x20\x53\x75\x63\x63\x65\x73\x73\x66\x75\x6c\x6c\x79\x2e"
     )
-    asyncio.get_event_loop().run_until_complete(fallen_startup())
+
+
+asyncio.get_event_loop().run_until_complete(fallen_startup())
