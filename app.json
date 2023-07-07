@@ -13,52 +13,52 @@
     "env": {
       "API_ID": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "",
+        "value": "20141455",
         "required": true
       },
       "API_HASH": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "",
+        "value": "994bb3655490bc9e9d9af6419cdc086a",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "Botfather-dən Bot nişanı",
-        "value": "",
+        "value": "6320321205:AAGJfU_olp4h8HjwGnbHzk3dVYnUM2c3b9E",
         "required": true
       },
       "OWNER_ID": {
         "description": "İstifadəçi ID-nizi burada doldurun. (tam ədəd olmalıdır)",
-        "value": "",
+        "value": "6029107271",
         "required": true
       },
       "SESSION": {
         "description": "@Telegram-dan piroqram v2 sim seansı",
-        "value": "",
+        "value": "AgCl3FrgWjnIpGP0Xdqqp_G0AxzJL1NLaTriJOLXPxTgCSLIXNZ5okcV3p-2jyFMTg4SLsxaWYJJAGdAqMciVUV102-b_bmWHk_1ol9UZ35rp5QtJ84_qqEYnydWNjYznzO61GpsCEu7EJjJKL45fIqHSQRipKLXwSGDaUMiLnh-YWFayq4cc04UoMuOLnS8sHdW_QA3bwHW2je6ckLDDFRlvEks29ImUGcO935Y0mlT4DBjR3UYmF9aSXFGprOfF802rfEoi39bT3hNYc6veMkQa7e4Hgdja5bMeiEXiJafGYGSfibboICl_Qj5l95jTd3vhE1wU-rPTlny2zsgXfW7AAAAAVs0JpQA",
         "required": true
       },
         "PING_IMG": {
         "description": "Ping seklin jpg formada daxil edin",
-        "value": "",
+        "value": "https://telegra.ph//file/1c76d504334310b17b274.jpg",
         "required": true
       },
         "START_IMG": {
         "description": "Start seklin jpg formada daxil edin",
-        "value": "",
+        "value": "https://telegra.ph//file/1c76d504334310b17b274.jpg",
         "required": true
       },
         "SUPPORT_CHANNEL": {
         "description": "Telegram dəstək kanalınızın linki. ",
-        "value": "",
+        "value": "https://t.me/MaxActionLog",
         "required": true
       },
       "SUDO_USERS": {
         "description": "Sudo kimi əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
-        "value": "",
+        "value": "6029107271 6202787227",
         "required": true
       },
       "SUPPORT_CHAT": {
         "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
-        "value": "",
+        "value": "https://t.me/MaxActionChat",
         "required": false
       }
     },
