@@ -1,27 +1,11 @@
-from os import getenv
+import os
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
-
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
-
-OWNER_ID = int(getenv("OWNER_ID"))
-
-PING_IMG = getenv("PING_IMG")
-START_IMG = getenv("START_IMG")
-
-SESSION = getenv("SESSION", None)
-
-SUPPORT_CHAT = getenv("SUPPORT_CHAT")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL")
-
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-
-
-FAILED = ""
+class Config():
+    # Bu dəyərləri my.telegram.org saytından əldə edin
+    #>>> https://my.telegram.org
+    #>>> https://t.me/BotFather
+  
+    API_ID = int(os.environ.get("API_ID"))
+    API_HASH = os.environ.get("API_HASH")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    OWNER_ID = int(os.environ.get("OWNER_ID"))
