@@ -26,6 +26,11 @@
         "value": "",
         "required": true
       },
+        "PING_IMG": {
+        "description": "ping seklin yazin jpg",
+        "value": "",
+        "required": true
+            },
       "OWNER_ID": {
         "description": "İstifadəçi ID-nizi burada doldurun. (tam ədəd olmalıdır)",
         "value": "",
