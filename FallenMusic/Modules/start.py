@@ -60,18 +60,20 @@ async def fallen_st(_, message: Message):
                     reply_markup=key,
                 )
         else:
-            await message.reply_photo(
-                photo=config.START_IMG,
-                caption=PM_START_TEXT.format(
+            await message.reply_text( #reply_photo
+               # photo=config.START_IMG,
+               # caption=
+                PM_START_TEXT.format(
                     message.from_user.first_name,
                     BOT_MENTION,
                 ),
                 reply_markup=InlineKeyboardMarkup(pm_buttons),
             )
     else:
-        await message.reply_photo(
-            photo=config.START_IMG,
-            caption=START_TEXT.format(
+        await message.reply_text( #reply_photo
+           # photo=config.START_IMG,
+           # caption=
+            START_TEXT.format(
                 message.from_user.first_name,
                 BOT_MENTION,
                 message.chat.title,
