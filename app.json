@@ -36,16 +36,6 @@
         "value": "AgB9__voUwpZdiXgtCu92SREQvEnhPw15zrVzCcl7e-ToZopKnUgoVW4vS35xpuGB-oIPiwsEy2W_qYyQksbRNr1X6xXLJ2kxazpzZmiQmdxT2tZG32a3iH-dhCM0nzyNjQWPKNYC-UAepx3AQOS-e7NioGULObz9dhCFx7LevhrMSfXXX3_6uMpQeKs2ebvuYZN0IutgHSPvuMWnHOaUwhS6IZ3LE9Oj-sr10rC4CTfAqBasGpn9lrx1fSK9f6rOfgGob1Itd9oy_AeIaswne6Jr-jpXZM9lN6vy4L6hv3Qw6y7eDH--0kQsjg5rjAlWCSOHls5pFyHD1ucrYQOMl7VAAAAAVs0JpQA",
         "required": true
       },
-        "PING_IMG": {
-        "description": "Ping seklin jpg formada daxil edin",
-        "value": "https://telegra.ph//file/1c76d504334310b17b274.jpg",
-        "required": true
-      },
-        "START_IMG": {
-        "description": "Start seklin jpg formada daxil edin",
-        "value": "https://telegra.ph//file/1c76d504334310b17b274.jpg",
-        "required": true
-      },
         "SUPPORT_CHANNEL": {
         "description": "Telegram dəstək kanalınızın linki. ",
         "value": "https://t.me/MaxActionLog",
