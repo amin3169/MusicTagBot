@@ -1,7 +1,7 @@
 {
-    "name": "Telegram Music ダ Tag Bot",
-    "description": "Pyrogram və Py-Tgcalls ilə Python dilində yazılmış teleqram videoçatları & tag üçün VC Player & Tag Botu.",
-    "logo": "https://graph.org/file/35444b7d40fff28719e62.jpg",
+    "name": "RaviVeyi ダ Music ve tag",
+    "description": "Pyrogram və Py-Tgcalls ilə Python dilində yazılmış teleqram videoçatları ve Etiketlemek  üçün VC Player ve Tag Botu.",
+    "logo": "https://te.legra.ph/file/f039e00ccd18d625f3771.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -13,42 +13,37 @@
     "env": {
       "API_ID": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "22175069",
+        "value": "",
         "required": true
       },
       "API_HASH": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "994bb3655490bc9e9d9af6419cdc086a",
+        "value": "",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "Botfather-dən Bot nişanı",
-        "value": "6320321205:AAGJfU_olp4h8HjwGnbHzk3dVYnUM2c3b9E",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
         "description": "İstifadəçi ID-nizi burada doldurun. (tam ədəd olmalıdır)",
-        "value": "6029107271",
+        "value": "",
         "required": true
       },
       "SESSION": {
         "description": "@Telegram-dan piroqram v2 sim seansı",
-        "value": "AgB9__voUwpZdiXgtCu92SREQvEnhPw15zrVzCcl7e-ToZopKnUgoVW4vS35xpuGB-oIPiwsEy2W_qYyQksbRNr1X6xXLJ2kxazpzZmiQmdxT2tZG32a3iH-dhCM0nzyNjQWPKNYC-UAepx3AQOS-e7NioGULObz9dhCFx7LevhrMSfXXX3_6uMpQeKs2ebvuYZN0IutgHSPvuMWnHOaUwhS6IZ3LE9Oj-sr10rC4CTfAqBasGpn9lrx1fSK9f6rOfgGob1Itd9oy_AeIaswne6Jr-jpXZM9lN6vy4L6hv3Qw6y7eDH--0kQsjg5rjAlWCSOHls5pFyHD1ucrYQOMl7VAAAAAVs0JpQA",
-        "required": true
-      },
-        "SUPPORT_CHANNEL": {
-        "description": "Telegram dəstək kanalınızın linki. ",
-        "value": "https://t.me/MaxActionLog",
+        "value": "",
         "required": true
       },
       "SUDO_USERS": {
         "description": "Sudo kimi əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
-        "value": "6029107271 6202787227",
+        "value": "",
         "required": true
       },
       "SUPPORT_CHAT": {
         "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
-        "value": "https://t.me/MaxActionChat",
+        "value": "",
         "required": false
       }
     },
@@ -64,4 +59,4 @@
           }
       ],
       "stack": "container"
-  }
+    }
