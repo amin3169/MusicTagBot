@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.enums import ChatType, ParseMode
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
@@ -61,6 +61,7 @@ async def fallen_st(_, message: Message):
                 )
         else:
             await message.reply_photo(
+                photo=config.START_IMG,
                 caption=PM_START_TEXT.format(
                     message.from_user.first_name,
                     BOT_MENTION,
@@ -69,6 +70,7 @@ async def fallen_st(_, message: Message):
             )
     else:
         await message.reply_photo(
+            photo=config.START_IMG,
             caption=START_TEXT.format(
                 message.from_user.first_name,
                 BOT_MENTION,
@@ -76,12 +78,4 @@ async def fallen_st(_, message: Message):
                 config.SUPPORT_CHAT,
             ),
             reply_markup=InlineKeyboardMarkup(gp_buttons),
-        )
-@app.on_callback_query(filters.regex("tagbutton"))
-async def tagbutton(_, query: CallbackQuery):
-    await query.edit_message_text(TAG_MSJ, 
-    reply_markup=InlineKeyboardMarkup([
-    [
-    InlineKeyboardButton("◄◐ Geri", callback_data="fallen_home"),
-    InlineKeyboardButton("📨 Kanal", url=config.SUPPORT_CHANNEL)
-    ]]))
+)
