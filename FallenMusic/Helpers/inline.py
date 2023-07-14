@@ -2,7 +2,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from FallenMusic import BOT_USERNAME
 import config
 
-close_key = InlineKeyboardMarkup([[InlineKeyboardButton(text="𝄞 Bağlayır 𝄞", callback_data="close")]])
+close_key = InlineKeyboardMarkup([[InlineKeyboardButton(text="🎵 ʙᴀĞʟᴀʏɪʀ 🎵", callback_data="close")]])
 
 buttons = InlineKeyboardMarkup(
           [[
@@ -14,42 +14,42 @@ buttons = InlineKeyboardMarkup(
 
 gp_buttons = [
     [
-     InlineKeyboardButton(text="🗂 Əmrlər və Köməklər 🗂", callback_data="fallen_help")
+     InlineKeyboardButton(text="🗂 ƏᴍʀʟƏʀ ᴠƏ ᴋÖᴍƏᴋʟƏʀ 🗂", callback_data="fallen_help")
     ],[
-     InlineKeyboardButton(text="📨 Kanal", url=config.SUPPORT_CHANNEL),
-     InlineKeyboardButton(text="📨 Dəstək", url=config.SUPPORT_CHAT),
+     InlineKeyboardButton(text="📢 ᴋᴀɴᴀʟ", url=config.SUPPORT_CHANNEL),
+     InlineKeyboardButton(text="💻 ᴅƏꜱᴛƏᴋ", url=config.SUPPORT_CHAT),
     ],[
-     InlineKeyboardButton(text="✢ Qrupa Əlavə Et ✢",url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)
+     InlineKeyboardButton(text="🔸️ Qʀᴜᴘᴀ ƏʟᴀᴠƏ ᴇᴛ 🔸️",url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)
     ],[
-     InlineKeyboardButton(text="♚ Bot Sahibi", user_id=config.OWNER_ID),
+     InlineKeyboardButton(text="👨‍💻 ʙᴏᴛ ꜱᴀʜɪʙɪ", user_id=config.OWNER_ID),
     ],]
 
 pm_buttons = [
     [
-     InlineKeyboardButton(text="🗂 Əmrlər və Köməklər 🗂", callback_data="fallen_help")
+     InlineKeyboardButton(text="🗂 ƏᴍʀʟƏʀ ᴠƏ ᴋÖᴍƏᴋʟƏʀ 🗂", callback_data="fallen_help")
     ],[
-     InlineKeyboardButton(text="📨 Kanal", url=config.SUPPORT_CHANNEL),
-     InlineKeyboardButton(text="📨 Dəstək", url=config.SUPPORT_CHAT),
+     InlineKeyboardButton(text="📢 ᴋᴀɴᴀʟ", url=config.SUPPORT_CHANNEL),
+     InlineKeyboardButton(text="💻 Dəstək", url=config.SUPPORT_CHAT),
     ],[
-     InlineKeyboardButton(text="✢ Qrupa Əlavə Et ✢",url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)
+     InlineKeyboardButton(text="🔸️ Qʀᴜᴘᴀ ƏʟᴀᴠƏ ᴇᴛ 🔸️",url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)
     ],[
-     InlineKeyboardButton(text="♚ Bot Sahibi", user_id=config.OWNER_ID),
+     InlineKeyboardButton(text="👨‍💻 ʙᴏᴛ ꜱᴀʜɪʙɪ", user_id=config.OWNER_ID),
     ],]
 
 helpmenu = [
     [
-    InlineKeyboardButton(text="📑 Bot Əmrləri",callback_data="fallen_cb help",),
-    InlineKeyboardButton(text="🗣 Etiketlər ",callback_data="tagbutton",)
+    InlineKeyboardButton(text="📚 ꜱƏꜱʟɪ ƏᴍʀʟƏʀ",callback_data="fallen_cb help",),
+    InlineKeyboardButton(text="🔊 ᴛᴀĞ ƏᴍʀʟƏʀɪ ",callback_data="tagbutton",)
     ],[
-    InlineKeyboardButton(text="📋 Bot Adminlər", callback_data="fallen_cb sudo"),
-    InlineKeyboardButton(text="♛ Bot Sahibi", callback_data="fallen_cb owner"),
+    InlineKeyboardButton(text="📋 ʙᴏᴛ ᴀᴅᴍɪɴʟƏʀ", callback_data="fallen_cb sudo"),
+    InlineKeyboardButton(text="👨‍💻 ʙᴏᴛ ꜱᴀʜɪʙɪ", callback_data="fallen_cb owner"),
     ],[
-    InlineKeyboardButton(text="◄◐ Geri", callback_data="fallen_home"),
-    InlineKeyboardButton(text="🗑 Menyunu bağlayır", callback_data="close"),
+    InlineKeyboardButton(text="◄◐ ɢᴇʀɪ", callback_data="fallen_home"),
+    InlineKeyboardButton(text="🗑 ᴍᴇɴʏᴜɴᴜ ʙᴀĞʟᴀʏɪʀ", callback_data="close"),
     ],]
 
 help_back = [
     [
-    InlineKeyboardButton(text="◄◐ Geri", callback_data="fallen_help"),
-    InlineKeyboardButton(text="🗑 Menyunu bağlayır", callback_data="close"),
+    InlineKeyboardButton(text="◄◐ ɢᴇʀɪ", callback_data="fallen_help"),
+    InlineKeyboardButton(text="🗑 ᴍᴇɴʏᴜɴᴜ ʙᴀĞʟᴀʏɪʀ", callback_data="close"),
     ],]
