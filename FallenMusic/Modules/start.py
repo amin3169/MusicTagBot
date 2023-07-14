@@ -30,17 +30,17 @@ async def fallen_st(_, message: Message):
                     link = result["link"]
                     published = result["publishedTime"]
                 searched_text = f"""
-➻ **Məlumatı izləyin** 
+➻ **ᴍƏʟᴜᴍᴀᴛɪ ɪᴢʟƏʏɪɴ** 
 
-📌 **Başlıq :** {title}
+📌 **ʙᴀŞʟɪQ :** {title}
 
-⏳ **Müddət :** {duration} ᴍɪɴᴜᴛᴇs
-👀 **Baxışlar :** `{views}`
-⏰ **Dərc olunub :** {published}
-🔗 **Link :** [Youtube-da izləyin]({link})
-🎥 **Kanal :** [{channel}]({channellink})
+⏳ **ᴍÜᴅᴅƏᴛ :** {duration} ᴍɪɴᴜᴛᴇs
+👀 **ʙᴀxɪŞʟᴀʀ :** `{views}`
+⏰ **ᴅƏʀᴄ ᴏʟᴜɴᴜʙ :** {published}
+🔗 **ʟɪɴᴋ :** [Youtube-da izləyin]({link})
+🎥 **ᴋᴀɴᴀʟ :** [{channel}]({channellink})
 
-💖 Axtarış dəstəklənir {BOT_NAME}"""
+📡 ᴀxᴛᴀʀɪŞ ᴅƏꜱᴛƏᴋʟƏɴɪʀ {BOT_NAME}"""
                 key = InlineKeyboardMarkup(
                     [
                         [
@@ -87,6 +87,6 @@ async def tagbutton(_, query: CallbackQuery):
     await query.edit_message_text(TAG_MSJ, 
     reply_markup=InlineKeyboardMarkup([
     [
-    InlineKeyboardButton("◄◐ Geri", callback_data="fallen_home"),
-    InlineKeyboardButton("📨 Kanal", url=config.SUPPORT_CHANNEL)
+    InlineKeyboardButton("◄◐ ɢᴇʀɪ", callback_data="fallen_home"),
+    InlineKeyboardButton("📢 ᴋᴀɴᴀʟ", url=config.SUPPORT_CHANNEL)
     ]]))
