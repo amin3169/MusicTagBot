@@ -21,42 +21,42 @@ from FallenMusic.Modules import ALL_MODULES
 
 
 async def fallen_startup():
-    LOGGER.info("[•] Modulların yüklənməsi...")
+    LOGGER.info("[•] ᴍᴏᴅᴜʟʟᴀʀɪɴ ʏÜᴋʟƏɴᴍƏꜱɪ...")
     for module in ALL_MODULES:
         importlib.import_module("FallenMusic.Modules." + module)
-    LOGGER.info(f"[•] Yükləndi {len(ALL_MODULES)} Modullar.")
+    LOGGER.info(f"[•] ʏÜᴋʟƏɴᴅɪ {len(ALL_MODULES)} ᴍᴏᴅᴜʟʟᴀʀ.")
 
-    LOGGER.info("[•] Yenilənən Kataloqlar...")
+    LOGGER.info("[•] ʏᴇɴɪʟƏɴƏɴ ᴋᴀᴛᴀʟᴏQʟᴀʀ...")
     if "downloads" not in os.listdir():
         os.mkdir("downloads")
     if "cache" not in os.listdir():
         os.mkdir("cache")
-    LOGGER.info("[•] Kataloqlar Yenilənib.")
+    LOGGER.info("[•] ᴋᴀᴛᴀʟᴏQʟᴀʀ ʏᴇɴɪʟƏɴɪʙ.")
 
     try:
         await app.send_message(
             SUNAME,
-            f"𝙈𝙖𝙭 </> 𝘼𝙘𝙩𝙞𝙤𝙣\n\n𖢵 ID : `{BOT_ID}`\n𖢵 Ad : {BOT_NAME}\n𖢵 istifadəçi adı : @{BOT_USERNAME}",
+            f"𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 🎙\n\n𖢵 ID : `{BOT_ID}`\n𖢵 ᴀᴅ  : {BOT_NAME}\n𖢵 ɪꜱᴛɪꜰᴀᴅƏÇɪ ᴀᴅɪ : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
-            f"{BOT_NAME} ünvanına mesaj göndərmək alınmadı @{SUNAME}, zəhmət olmasa gedin yoxlayın."
+            f"{BOT_NAME} Üɴᴠᴀɴɪɴᴀ ᴍᴇꜱᴀᴊ ɢÖɴᴅƏʀᴍƏᴋ ᴀʟɪɴᴍᴀᴅɪ @{SUNAME}, ᴢƏʜᴍƏᴛ ᴏʟᴍᴀꜱᴀ ɢᴇᴅɪɴ ʏᴏxʟᴀʏɪɴ."
         )
 
     try:
         await app2.send_message(
             SUNAME,
-            f"𝙈𝙖𝙭 </> 𝘼𝙘𝙩𝙞𝙤𝙣\n\n𖢵 ID : `{ASS_ID}`\n𖢵 Ad : {ASS_NAME}\n𖢵 istifadəçi adı : @{ASS_USERNAME}",
+            f"𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 🎙\n\n𖢵 ID : `{ASS_ID}`\n𖢵 ᴀᴅ : {ASS_NAME}\n𖢵 ɪꜱᴛɪꜰᴀᴅƏÇɪ ᴀᴅɪ : @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
-            f"{ASS_NAME} ünvanına mesaj göndərmək alınmadı @{SUNAME}, zəhmət olmasa gedin yoxlayın."
+            f"{ASS_NAME} Üɴᴠᴀɴɪɴᴀ ᴍᴇꜱᴀᴊ ɢÖɴᴅƏʀᴍƏᴋ ᴀʟɪɴᴍᴀᴅɪ @{SUNAME},ᴢƏʜᴍƏᴛ ᴏʟᴍᴀꜱᴀ ɢᴇᴅɪɴ ʏᴏxʟᴀʏɪɴ."
         )
 
     await app2.send_message(BOT_USERNAME, "/start")
 
-    LOGGER.info(f"[•] Bot kimi başladı {BOT_NAME}.")
-    LOGGER.info(f"[•] Assistent Başladı {ASS_NAME}.")
+    LOGGER.info(f"[•] ʙᴏᴛ ᴋɪᴍɪ ʙᴀŞʟᴀᴅɪ {BOT_NAME}.")
+    LOGGER.info(f"[•] ᴀꜱꜱɪꜱᴛᴇɴᴛ ʙᴀŞʟᴀᴅɪ {ASS_NAME}.")
 
     LOGGER.info(
         "[•] \x53\x74\x61\x72\x74\x69\x6e\x67\x20\x50\x79\x54\x67\x43\x61\x6c\x6c\x73\x20\x43\x6c\x69\x65\x6e\x74\x2e\x2e\x2e"
@@ -67,4 +67,4 @@ async def fallen_startup():
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(fallen_startup())
-    LOGGER.error("𝙈𝙖𝙭 </> 𝘼𝙘𝙩𝙞𝙤𝙣 Dayandı.")
+    LOGGER.error(" 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 🎙 Dayandı.")
