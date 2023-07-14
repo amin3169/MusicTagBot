@@ -7,70 +7,70 @@ PM_START_TEXT = """
 ᴍƏɴ ʙƏᴢɪ ꜰᴀʏᴅᴀʟɪ xÜꜱᴜꜱɪʏʏƏᴛʟƏʀɪ ᴏʟᴀɴ ᴛᴇʟᴇQʀᴀᴍ ʏᴀʏɪᴍ ᴠƏ ᴛᴀɢ ʙᴏᴛᴜʏᴀᴍ.
 
 📡 ᴍƏɴɪ Qʀᴜᴘʟᴀʀɪɴɪᴢᴀ ƏʟᴀᴠƏ ᴇᴛᴍƏᴋᴅƏɴ ÇƏᴋɪɴᴍƏʏɪɴ
-──────────────────
+
 """
 
 START_TEXT = """
 Salam {0}
-{1} İndi mahnı oxuya bilər {2}.
+{1} İɴᴅɪ ᴍᴀʜɴɪ ᴏxᴜʏᴀ ʙɪʟƏʀ {2}.
 
 ──────────────────
-➻ Mənim haqqımda kömək etmək üçün və ya bir şey soruşmaq istəyirsinizsə, mənim [Dəstək Çatıma]({3}) qoşula bilərsiniz.
+➻ ᴍƏɴɪᴍ ʜᴀQQɪᴍᴅᴀ ᴋÖᴍƏᴋ ᴇᴛᴍƏᴋ ÜÇÜɴ ᴠƏ ʏᴀ ʙɪʀ Şᴇʏ ꜱᴏʀᴜŞᴍᴀQ ɪꜱᴛƏʏɪʀꜱɪɴɪᴢꜱƏ, ᴍƏɴɪᴍ [Dəstək Çatıma]({3}) QᴏŞᴜʟᴀ ʙɪʟƏʀꜱɪɴɪᴢ.
 """
 
 HELP_TEXT = f"""
-<u>❄ **İstifadəçilər üçün mövcud əmrlər {BOT_NAME} :**</u>
+<u>❄ **İꜱᴛɪꜰᴀᴅƏÇɪʟƏʀ ÜÇÜɴ ᴍÖᴠᴄᴜᴅ ƏᴍʀʟƏʀ {BOT_NAME} :**</u>
 
 •━━━━━━━━•••━━━━━━━━•
-๏ /play : Video çatda tələb olunan treki yayımlayan ulduzlar.
-๏ /pause : Cari ifa axını dayandırın.
-๏ /resume : Dayandırılmış yayımı davam etdirin.
-๏ /skip : Cari ifa axınını atlayın və növbədə olan növbəti treki yayımlamağa başlayın.
-๏ /end : Növbəni təmizləyir və cari ifa axınını bitirir.
-๏ /ping : Botun ping və sistem statistikasını göstərin.
-๏ /sudolist : Botun sodo istifadəçilərinin siyahısını göstərin.
-๏ /song : İstədiyiniz mahnını yükləyin və sizə göndərin.
-๏ /search : Verilən sorğunu youtube-da axtarır və nəticəni sizə göstərir.
+๏ /play : ꜱƏꜱʟɪ Çᴀᴛᴅᴀ ᴍᴜꜱɪQɪ ʙᴀŞʟᴀᴅɪʀ.
+๏ /pause : ᴄᴀʀɪ İꜰᴀʏᴀ ꜰᴀꜱɪʟƏ ᴠᴇʀɪʀ.
+๏ /resume : ᴅᴀʏᴀɴᴅɪʀɪʟᴍɪŞ ʏᴀʏɪᴍɪ ᴅᴀᴠᴀᴍ ᴇᴛᴅɪʀɪɴ.
+๏ /skip : ᴄᴀʀɪ İꜰᴀ ᴀxɪɴɪɴɪ ᴀᴛʟᴀʏɪɴ ᴠƏ ɴÖᴠʙƏᴅƏ ᴏʟᴀɴ ᴛʀᴇᴋɪ ʏᴀʏɪᴍʟᴀᴍᴀĞᴀ ʙᴀŞʟᴀʏᴀʀ.
+๏ /end : ᴄᴀʀɪ İꜰᴀ ᴀxɪɴɪɴɪ ʙɪᴛɪʀƏʀ.
+๏ /ping : ʙᴏᴛᴜɴ ᴘɪɴɢ ᴠƏ ꜱɪꜱᴛᴇᴍ ꜱᴛᴀᴛɪꜱᴛɪᴋᴀꜱɪɴɪ ɢÖꜱᴛƏʀɪʀ.
+๏ /sudolist : ʙᴏᴛᴜɴ ꜱᴏᴅᴏ ɪꜱᴛɪꜰᴀᴅƏÇɪʟƏʀɪɴɪɴ ꜱɪʏᴀʜɪꜱɪɴɪ ɢÖꜱᴛƏʀɪʀ.
+๏ /song : İꜱᴛƏᴅɪʏɪɴɪᴢ ᴍᴀʜɴɪɴɪ ʏÜᴋʟƏʏɪʀ ᴠƏ ꜱɪᴢƏ ɢÖɴᴅƏʀɪʀ.
+๏ /search : ᴠᴇʀɪʟƏɴ ꜱᴏʀĞᴜɴᴜ ʏᴏᴜᴛᴜʙᴇ-ᴅᴀ ᴀxᴛᴀʀɪʀ ᴠƏ ɴƏᴛɪᴄƏɴɪ ꜱɪᴢƏ ɢÖꜱᴛƏʀɪʀ.
 •━━━━━━━━•••━━━━━━━━•
 """
 
 HELP_SUDO = f"""
-<u>✨ **Sudo əmrləri daxil olur {BOT_NAME} :**</u>
+<u>✨ **ꜱᴜᴅᴏ ƏᴍʀʟƏʀɪ ᴅᴀxɪʟ ᴏʟᴜʀ {BOT_NAME} :**</u>
 
 •━━━━━━━━•••━━━━━━━━•
-๏ /activevc : Hazırda aktiv səsli söhbətlərin siyahısını göstərir.
-๏ /eval və ya /sh : Verilmiş kodu bot terminalında işlədir.
-๏ /speedtest : Botlar serverində sürət testini həyata keçirir.
-๏ /sysstats : Botlar serverinin sistem statistikasını göstərir.
-๏ /setname [Mətn və ya mətnə cavab] : Köməkçi hesabının adını dəyişdirin.
-๏ /setbio [Mətn və ya mətnə cavab] : Köməkçi hesabının bio-nu dəyişdirin.
-๏ /setpfp [Fotoya cavab verin] : Köməkçi hesabının pfp-ni dəyişdirin.
-๏ /delpfp : Köməkçi hesabının cari pfp-ni silin.
+๏ /activevc : ʜᴀᴢɪʀᴅᴀ ᴀᴋᴛɪᴠ ꜱƏꜱʟɪ ꜱÖʜʙƏᴛʟƏʀɪɴ ꜱɪʏᴀʜɪꜱɪɴɪ ɢÖꜱᴛƏʀɪʀ.
+๏ /eval və ya /sh : ᴠᴇʀɪʟᴍɪŞ ᴋᴏᴅᴜ ʙᴏᴛ ᴛᴇʀᴍɪɴᴀʟɪɴᴅᴀ ɪŞʟƏᴅɪʀ.
+๏ /speedtest : ʙᴏᴛʟᴀʀ ꜱᴇʀᴠᴇʀɪɴᴅƏ ꜱÜʀƏᴛ ᴛᴇꜱᴛɪɴɪ ʜƏʏᴀᴛᴀ ᴋᴇÇɪʀɪʀ.
+๏ /sysstats : ʙᴏᴛʟᴀʀ ꜱᴇʀᴠᴇʀɪɴɪɴ ꜱɪꜱᴛᴇᴍ ꜱᴛᴀᴛɪꜱᴛɪᴋᴀꜱɪɴɪ ɢÖꜱᴛƏʀɪʀ.
+๏ /setname [ᴍƏᴛɴ ᴠƏ ʏᴀ ᴍƏᴛɴƏ ᴄᴀᴠᴀʙ] : ᴋÖᴍƏᴋÇɪ ʜᴇꜱᴀʙɪɴɪɴ ᴀᴅɪɴɪ ᴅƏʏɪŞᴅɪʀɪɴ.
+๏ /setbio [ᴍƏᴛɴ ᴠƏ ʏᴀ ᴍƏᴛɴƏ ᴄᴀᴠᴀʙ] : ᴋÖᴍƏᴋÇɪ ʜᴇꜱᴀʙɪɴɪɴ ʙɪᴏ-ɴᴜ ᴅƏʏɪŞᴅɪʀɪɴ.
+๏ /setpfp [ꜰᴏᴛᴏʏᴀ ᴄᴀᴠᴀʙ ᴠᴇʀɪɴ] : ᴋÖᴍƏᴋÇɪ ʜᴇꜱᴀʙɪɴɪɴ ᴘꜰᴘ-ɴɪ ᴅƏʏɪŞᴅɪʀɪɴ.
+๏ /delpfp : ᴋÖᴍƏᴋÇɪ ʜᴇꜱᴀʙɪɴɪɴ ᴄᴀʀɪ ᴘꜰᴘ-ɴɪ ꜱɪʟɪɴ.
 •━━━━━━━━•••━━━━━━━━•
 """
 
 HELP_DEV = f"""
-<u>✨ **Sahib əmr verir {BOT_NAME} :**</u>
+<u>✨ **ꜱᴀʜɪʙ Əᴍʀ ᴠᴇʀɪʀ {BOT_NAME} :**</u>
 
 •━━━━━━━━•••━━━━━━━━•
-๏ /config : Botun bütün konfiqurasiya dəyişənlərini əldə etmək üçün.
-๏ /broadcast [Mesaj göndərin və ya mesaja cavab verin] : Mesajı botun xidmət edilən çatlarına çatdırın.
-๏ /rmdownloads : Botlar serverində yüklənmiş keş fayllarını təmizləyir.
-๏ /leaveall : Köməkçi hesabına bütün söhbətləri tərk etməyi əmr edir.
-๏ /addsudo [İstifadəçi adı və ya istifadəçiyə cavab] : İstifadəçini sudo users lisr-ə əlavə edin.
-๏ /rmsudo [İstifadəçi adı və ya istifadəçiyə cavab] : İstifadəçini sudo istifadəçiləri siyahısından çıxarın.
+๏ /config : ʙᴏᴛᴜɴ ʙÜᴛÜɴ ᴋᴏɴꜰɪQᴜʀᴀꜱɪʏᴀ ᴅƏʏɪŞƏɴʟƏʀɪɴɪ ƏʟᴅƏ ᴇᴛᴍƏᴋ ÜÇÜɴ.
+๏ /broadcast: [ᴍᴇꜱᴀᴊ ɢÖɴᴅƏʀɪɴ ᴠƏ ʏᴀ ᴍᴇꜱᴀᴊᴀ ᴄᴀᴠᴀʙ ᴠᴇʀɪɴ] : ᴍᴇꜱᴀᴊɪ ʙᴏᴛᴜɴ xɪᴅᴍƏᴛ ᴇᴅɪʟƏɴ Çᴀᴛʟᴀʀɪɴᴀ Çᴀᴛᴅɪʀɪɴ.
+๏ /rmdownloads :ʙᴏᴛʟᴀʀ ꜱᴇʀᴠᴇʀɪɴᴅƏ ʏÜᴋʟƏɴᴍɪŞ ᴋᴇŞ ꜰᴀʏʟʟᴀʀɪɴɪ ᴛƏᴍɪᴢʟƏʏɪʀ.
+๏ /leaveall : ᴋÖᴍƏᴋÇɪ ʜᴇꜱᴀʙɪɴᴀ ʙÜᴛÜɴ ꜱÖʜʙƏᴛʟƏʀɪ ᴛƏʀᴋ ᴇᴛᴍƏʏɪ Əᴍʀ ᴇᴅɪʀ.
+๏ /addsudo : [İꜱᴛɪꜰᴀᴅƏÇɪ ᴀᴅɪ ᴠƏ ʏᴀ ɪꜱᴛɪꜰᴀᴅƏÇɪʏƏ ᴄᴀᴠᴀʙ] : İꜱᴛɪꜰᴀᴅƏÇɪɴɪ ꜱᴜᴅᴏ ᴜꜱᴇʀꜱ ʟɪꜱʀ-Ə ƏʟᴀᴠƏ ᴇᴅɪɴ.
+๏ /rmsudo : [İꜱᴛɪꜰᴀᴅƏÇɪ ᴀᴅɪ ᴠƏ ʏᴀ ɪꜱᴛɪꜰᴀᴅƏÇɪʏƏ ᴄᴀᴠᴀʙ] : İꜱᴛɪꜰᴀᴅƏÇɪɴɪ ꜱᴜᴅᴏ ɪꜱᴛɪꜰᴀᴅƏÇɪʟƏʀɪ ꜱɪʏᴀʜɪꜱɪɴᴅᴀɴ Çɪxᴀʀɪɴ..
 •━━━━━━━━•••━━━━━━━━•
 """
 TAG_MSJ = f"""
 •━━━━━━━━•••━━━━━━━━•
-**“📚 Əmrlər„ bunlardır.⤵**
+**“📚 ƏᴍʀʟƏʀ„ ʙᴜɴʟᴀʀᴅɪʀ.⤵**
 •━━━━━━━━•••━━━━━━━━•
-**㋡⇰ /tag “səbəb„ - 5-li Tag Atışları.**
-**㋡⇰ /etag “səbəb„ - Emoji ilə etiketlər.**
-**㋡⇰ /stag “səbəb„ - Söz'lü Tag etiketlər.**
-**㋡⇰ /tektag “səbəb„ - Üzvləri Tək-Tək etiketlər.**
-**㋡⇰ /ctag “səbəb„ - Cümle ile  etiketlər.**
-**㋡⇰ /admins “səbəb„ - İdarəçilər Tək-Tək etiketlər.**
-**㋡⇰ /cancel - Tag Ələməyi Dayandır.**
+**㋡⇰ /tag “ꜱƏʙƏʙ„ - 5-ʟɪ ᴛᴀɢ ᴀᴛɪŞʟᴀʀɪ.**
+**㋡⇰ /etag “ꜱƏʙƏʙ„ - ᴇᴍᴏᴊɪ ɪʟƏ ᴇᴛɪᴋᴇᴛʟƏʀ.**
+**㋡⇰ /stag “ꜱƏʙƏʙ„ - ꜱÖᴢ'ʟÜ ᴛᴀɢ ᴇᴛɪᴋᴇᴛʟƏʀ.**
+**㋡⇰ /tektag “ꜱƏʙƏʙ„ - ÜᴢᴠʟƏʀɪ ᴛƏᴋ-ᴛƏᴋ ᴇᴛɪᴋᴇᴛʟƏʀ.**
+**㋡⇰ /ctag “ꜱƏʙƏʙ„ - ᴄÜᴍʟᴇ ɪʟᴇ  ᴇᴛɪᴋᴇᴛʟƏʀ.**
+**㋡⇰ /admins “ꜱƏʙƏʙ„ - İᴅᴀʀƏÇɪʟƏʀ ᴛƏᴋ-ᴛƏᴋ ᴇᴛɪᴋᴇᴛʟƏʀ.**
+**㋡⇰ /cancel - ᴛᴀɢ ƏʟƏᴍƏʏɪ ᴅᴀʏᴀɴᴅɪʀ.**
 •━━━━━━━━•••━━━━━━━━•
 """
