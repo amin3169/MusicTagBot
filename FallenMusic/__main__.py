@@ -36,7 +36,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 🎙\n\n𖢵 ID : `{BOT_ID}`\n𖢵 ᴀᴅ  : {BOT_NAME}\n𖢵 ɪꜱᴛɪꜰᴀᴅƏÇɪ ᴀᴅɪ : @{BOT_USERNAME}",
+            f"𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙈𝙪𝙨𝙞𝙘🎙\n\n𖢵 ID : `{BOT_ID}`\n𖢵 ᴀᴅ  : {BOT_NAME}\n𖢵 ɪꜱᴛɪꜰᴀᴅƏÇɪ ᴀᴅɪ : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -46,7 +46,7 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 🎙\n\n𖢵 ID : `{ASS_ID}`\n𖢵 ᴀᴅ : {ASS_NAME}\n𖢵 ɪꜱᴛɪꜰᴀᴅƏÇɪ ᴀᴅɪ : @{ASS_USERNAME}",
+            f"𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙈𝙪𝙨𝙞𝙘 🎙\n\n𖢵 ID : `{ASS_ID}`\n𖢵 ᴀᴅ : {ASS_NAME}\n𖢵 ɪꜱᴛɪꜰᴀᴅƏÇɪ ᴀᴅɪ : @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -67,4 +67,4 @@ async def fallen_startup():
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(fallen_startup())
-    LOGGER.error(" 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 🎙 Dayandı.")
+    LOGGER.error(" 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙈𝙪𝙨𝙞𝙘 🎙 Dayandı.")
