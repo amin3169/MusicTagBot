@@ -12,6 +12,4 @@
 
 
 
-<p align="center">
-  <img src="https://telegra.ph/file/7f6a1a5857267ec4a2a2d.jpg">
-</p>
+
