@@ -1,5 +1,4 @@
-<h2 align="center">
-Telegram Music Bot 
+<h2 align="center"> Telegram Music Bot 
 </h2>
 
 
