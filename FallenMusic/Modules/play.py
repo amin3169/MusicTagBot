@@ -151,12 +151,12 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             return await fallen.edit_text(
-                f"» Bağışlayın balam, daha uzun izləyin  {DURATION_LIMIT} dəqiqə oynamağa icazə verilmir {BOT_NAME}."
+                f"» Bağışlayın ,  {DURATION_LIMIT} dəqiqə oynamağa icazə verilmir {BOT_NAME}."
             )
         file_path = audio_dl(url)
     else:
         if len(message.command) < 2:
-            return await fallen.edit_text("» Nə oynamaq istəyirsən balam ?")
+            return await fallen.edit_text("» Nə oynamaq istəyirsən ?")
         await fallen.edit_text("🔎")
         query = message.text.split(None, 1)[1]
         try:
@@ -173,11 +173,11 @@ async def play(_, message: Message):
 
         except Exception as e:
             LOGGER.error(str(e))
-            return await fallen.edit("» Oueri emal etmək alınmadı, yenidən oynamağa cəhd edin...")
+            return await fallen.edit("» Emal etmək alınmadı, yenidən oynamağa cəhd edin...")
 
         if (dur / 60) > DURATION_LIMIT:
             return await fallen.edit(
-                f"» Bağışlayın balam, daha uzun izləyin  {DURATION_LIMIT} dəqiqə oynamağa icazə verilmir {BOT_NAME}."
+                f"» Bağışlayın , {DURATION_LIMIT} dəqiqə oynamağa icazə verilmir {BOT_NAME}."
             )
         file_path = audio_dl(url)
 
