@@ -1,7 +1,7 @@
 {
     "name": "RaviVeyi ダ Music ve tag",
     "description": "Pyrogram və Py-Tgcalls ilə Python dilində yazılmış teleqram videoçatları ve Etiketlemek  üçün VC Player ve Tag Botu.",
-    "logo": "https://te.legra.ph/file/f039e00ccd18d625f3771.jpg",
+    "logo": "https://telegra.ph/file/7f6a1a5857267ec4a2a2d.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -13,47 +13,47 @@
     "env": {
       "API_ID": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "28659578",
+        "value": "24064450",
         "required": true
       },
       "API_HASH": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "8ccbb3d874111c72b840528de993c80c",
+        "value": "762843b5a3183c10338fb189c383f224",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "Botfather-dən Bot nişanı",
-        "value": "",
+        "value": "6470151221:AAGKKmrePMFXG1T17eQXv2ACZQhGyAdb91I",
         "required": true
       },
         "PING_IMG": {
         "description": "ping seklin yazin jpg",
-        "value": "https://telegra.ph//file/d13937d8390da67bb613f.jpg",
+        "value": "https://telegra.ph/file/7f6a1a5857267ec4a2a2d.jpg",
         "required": true
             },
       "OWNER_ID": {
         "description": "İstifadəçi ID-nizi burada doldurun. (tam ədəd olmalıdır)",
-        "value": "6217118791",
+        "value": "6017579379",
         "required": true
       },
       "SESSION": {
         "description": "@Telegram-dan piroqram v2 sim seansı",
-        "value": "AgCeygUt10nhBS-4TU7Nwm-fUfUtgcWmkHbvD-k5bwsVEQtSr8AH-K8mjLbxLF_O7RXC2SGVmwyI8kjtuk4nWOo1rR8HDHyjdE7CmC1ugT-7KTxfxmWRXjjHikGiJfArR0GSAiit6Tgqc-TXKPNQutHP7hqyKrGHBD0EOJk5bVadUpWMdIcM14bmShBEZ4CwhCmYvOAzinwoWeXS1yXD_ty-OZXKob0CzSNSaMV5U_Z4Q4Pir1rYzEoAbXctXnqKcrTQZX_pqZaw8XfFeZclqlSJmAvgfjDplFelobgfTAgQRCnxlCZxTIQgSGGTyr6FwhcXzQZhHLt--m0f2y-fXF5tAAAAAVs0JpQA",
+        "value": "AgA-sExcm5_DHhFS9ZgIw-BJXTLSS5D5eftLlWV2TCSzPnxw8aVj3UqL6MXyrO5h4Dc7p4fuKqkb0xUJKa4esBrRH1oo7j5FwWLqVli5yig1EBFXwdarEne_2PHy9tY53wcctffVaPql_tW0417ngRZ75WKU_oNjV24yIYVxviuO4WN1Qj9-WLRjRSAxxR9GkLcOtvKAfNyreGuAANVs0qHG7q57MiBiwB0xSYxcsV7s4IgICVJulB0uWJGRxzSxukLF44Dh50C1l19_-ClbUeCEnvuP1OxlB5Foq1VmXKZsjBRt2GNEnPHGLgETRVO_6iA67KcfUtJAJfQtlOB6mOLEAAAAAWas-XMA",
         "required": true
       },
       "SUDO_USERS": {
         "description": "Sudo kimi əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
-        "value": "6217118791",
+        "value": "6017579379",
         "required": true
       },
         "SUPPORT_CHANNEL": {
         "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
-        "value": "https://t.me/musiqiChat",
+        "value": "https://t.me/TeleqramProje",
         "required": false
         },
       "SUPPORT_CHAT": {
         "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
-        "value": "https://t.me/MusiqiSupport",
+        "value": "https://t.me/TeleqramSupport",
         "required": false
       }
     },
