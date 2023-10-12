@@ -1,7 +1,5 @@
-━━━━━━━━━━━━━━━━━━━━
-
 <h2 align="center">
-    ──「 Telegram Music Bot 」──
+Telegram Music Bot 
 </h2>
 
 ━━━━━━━━━━━━━━━━━━━━
