@@ -1,7 +1,7 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「 Telegram ✘ Music ✘ Tag Bot 」──
+    ──「 Telegram Music Bot 」──
 </h2>
 
 ━━━━━━━━━━━━━━━━━━━━
@@ -12,5 +12,5 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
-  <img src="https://graph.org/file/35444b7d40fff28719e62.jpg">
+  <img src="https://telegra.ph/file/7f6a1a5857267ec4a2a2d.jpg">
 </p>
