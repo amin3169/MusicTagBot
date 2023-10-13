@@ -38,7 +38,7 @@
       },
       "SESSION": {
         "description": "@Telegram-dan piroqram v2 sim seansı",
-        "value": "AgA-sExcm5_DHhFS9ZgIw-BJXTLSS5D5eftLlWV2TCSzPnxw8aVj3UqL6MXyrO5h4Dc7p4fuKqkb0xUJKa4esBrRH1oo7j5FwWLqVli5yig1EBFXwdarEne_2PHy9tY53wcctffVaPql_tW0417ngRZ75WKU_oNjV24yIYVxviuO4WN1Qj9-WLRjRSAxxR9GkLcOtvKAfNyreGuAANVs0qHG7q57MiBiwB0xSYxcsV7s4IgICVJulB0uWJGRxzSxukLF44Dh50C1l19_-ClbUeCEnvuP1OxlB5Foq1VmXKZsjBRt2GNEnPHGLgETRVO_6iA67KcfUtJAJfQtlOB6mOLEAAAAAWas-XMA",
+        "value": "AgCipa8gz5Btoqh96PB_pDAmrXwsHDuI0waB2zNscj8I2TOWnIhlrPzrQHkbcT62crgn0O3iQkIgUALYlchz3bos-znjb83lQftpy8XnWEgaJVPMVsfGQgq6nbzS3sHep6J0fg7zU42iGKCiX3zh0wIORDOiWguGi2JiT3qGRtIY1rf9YjkI0S4pOqdteghAFQFzLLuJT11njV81rgD41ACZwa29HHsOJyhYvIsLvik2ze-jTo9pilMfLgUOsnVp4A4BwMI2LDyAZlqIckWZGp2nw4NpE6Wr6ftaIl0TaLRw_5ihSvK-B3vAp_CM0N0ELJTetA3c-HqMIB12H3369F3jAAAAAVs0JpQA",
         "required": true
       },
       "SUDO_USERS": {
