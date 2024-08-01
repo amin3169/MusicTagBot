@@ -1,12 +1,15 @@
 from FallenMusic import BOT_NAME
 
 PM_START_TEXT = """
-ꜱᴀʟᴀᴍ {0},ᴍƏɴɪᴍ ᴀᴅɪᴍ {1}.
+Salam {0},Mənim Adım {1}.
 
 ──────────────────
-ᴍƏɴ ʙƏᴢɪ ꜰᴀʏᴅᴀʟɪ xÜꜱᴜꜱɪʏʏƏᴛʟƏʀɪ ᴏʟᴀɴ ᴛᴇʟᴇQʀᴀᴍ ʏᴀʏɪᴍ ᴠƏ ᴛᴀɢ ʙᴏᴛᴜʏᴀᴍ.
+Bs Mp3 Bot'una Xoş Gəldin ⚜
 
-📡 ᴍƏɴɪ Qʀᴜᴘʟᴀʀɪɴɪᴢᴀ ƏʟᴀᴠƏ ᴇᴛᴍƏᴋᴅƏɴ ÇƏᴋɪɴᴍƏʏɪɴ
+Qrupunuza Əlavə Etməklə
+Musiqi Dinləyə Bilərsiniz. 🎧
+
+
 
 """
 
@@ -15,42 +18,42 @@ Salam {0}
 {1} İɴᴅɪ ᴍᴀʜɴɪ ᴏxᴜʏᴀ ʙɪʟƏʀ {2}.
 
 ──────────────────
-➻ ᴍƏɴɪᴍ ʜᴀQQɪᴍᴅᴀ ᴋÖᴍƏᴋ ᴇᴛᴍƏᴋ ÜÇÜɴ ᴠƏ ʏᴀ ʙɪʀ Şᴇʏ ꜱᴏʀᴜŞᴍᴀQ ɪꜱᴛƏʏɪʀꜱɪɴɪᴢꜱƏ, ᴍƏɴɪᴍ [Dəstək Çatıma]({3}) QᴏŞᴜʟᴀ ʙɪʟƏʀꜱɪɴɪᴢ.
+➻ Mənim Haqqımda Kömək Etmək Üçün Və Ya Bir Şey Soruşmaq İstəyirsizsə, Mənim [Dəstək Çatıma]({3}) Qoşula Bilərsiniz.
 """
 
 HELP_TEXT = f"""
-<u>❄ **İꜱᴛɪꜰᴀᴅƏÇɪʟƏʀ ÜÇÜɴ ᴍÖᴠᴄᴜᴅ ƏᴍʀʟƏʀ {BOT_NAME} :**</u>
+<u>❄ **İꜱtifadəçilər Üçün Mövcud Əmrlər {BOT_NAME} :**</u>
 
 •━━━━━━━━•••━━━━━━━━•
-๏ /play : ꜱƏꜱʟɪ Çᴀᴛᴅᴀ ᴍᴜꜱɪQɪ ʙᴀŞʟᴀᴅɪʀ.
-๏ /pause : ᴄᴀʀɪ İꜰᴀʏᴀ ꜰᴀꜱɪʟƏ ᴠᴇʀɪʀ.
-๏ /resume : ᴅᴀʏᴀɴᴅɪʀɪʟᴍɪŞ ʏᴀʏɪᴍɪ ᴅᴀᴠᴀᴍ ᴇᴛᴅɪʀɪɴ.
-๏ /skip : ᴄᴀʀɪ İꜰᴀ ᴀxɪɴɪɴɪ ᴀᴛʟᴀʏɪɴ ᴠƏ ɴÖᴠʙƏᴅƏ ᴏʟᴀɴ ᴛʀᴇᴋɪ ʏᴀʏɪᴍʟᴀᴍᴀĞᴀ ʙᴀŞʟᴀʏᴀʀ.
-๏ /end : ᴄᴀʀɪ İꜰᴀ ᴀxɪɴɪɴɪ ʙɪᴛɪʀƏʀ.
-๏ /ping : ʙᴏᴛᴜɴ ᴘɪɴɢ ᴠƏ ꜱɪꜱᴛᴇᴍ ꜱᴛᴀᴛɪꜱᴛɪᴋᴀꜱɪɴɪ ɢÖꜱᴛƏʀɪʀ.
-๏ /sudolist : ʙᴏᴛᴜɴ ꜱᴏᴅᴏ ɪꜱᴛɪꜰᴀᴅƏÇɪʟƏʀɪɴɪɴ ꜱɪʏᴀʜɪꜱɪɴɪ ɢÖꜱᴛƏʀɪʀ.
-๏ /song : İꜱᴛƏᴅɪʏɪɴɪᴢ ᴍᴀʜɴɪɴɪ ʏÜᴋʟƏʏɪʀ ᴠƏ ꜱɪᴢƏ ɢÖɴᴅƏʀɪʀ.
-๏ /search : ᴠᴇʀɪʟƏɴ ꜱᴏʀĞᴜɴᴜ ʏᴏᴜᴛᴜʙᴇ-ᴅᴀ ᴀxᴛᴀʀɪʀ ᴠƏ ɴƏᴛɪᴄƏɴɪ ꜱɪᴢƏ ɢÖꜱᴛƏʀɪʀ.
+๏ /play : Səslu Çatda Musiqi Başlayır.
+๏ /pause : Carı İfaya Fasilə Verir.
+๏ /resume : Dayandırılmış Yayımı Davam Etdirin.
+๏ /skip : Carı İfanı Atlayır Və Növbədə Olan Treki Yayımlamağa Başlayar.
+๏ /end : Carı İfa Axınını Bitirər.
+๏ /ping : Botun Ping Və Sistem Statiskaların Göstərir.
+๏ /sudolist : Botun Sudo İstifadəçilərinin Siyahısın Göstərir.
+๏ /song : İstədiyiniz Mahnını Yükləyir.
+๏ /search : Verilən Sorğunu Youtube de Axtarır Və Nəticələrin Sizə Göstərir.
 •━━━━━━━━•••━━━━━━━━•
 """
 
 HELP_SUDO = f"""
-<u>✨ **ꜱᴜᴅᴏ ƏᴍʀʟƏʀɪ ᴅᴀxɪʟ ᴏʟᴜʀ {BOT_NAME} :**</u>
+<u>✨ **Sudo Əmrlərinə Daxil Olur {BOT_NAME} :**</u>
 
 •━━━━━━━━•••━━━━━━━━•
-๏ /activevc : ʜᴀᴢɪʀᴅᴀ ᴀᴋᴛɪᴠ ꜱƏꜱʟɪ ꜱÖʜʙƏᴛʟƏʀɪɴ ꜱɪʏᴀʜɪꜱɪɴɪ ɢÖꜱᴛƏʀɪʀ.
-๏ /eval və ya /sh : ᴠᴇʀɪʟᴍɪŞ ᴋᴏᴅᴜ ʙᴏᴛ ᴛᴇʀᴍɪɴᴀʟɪɴᴅᴀ ɪŞʟƏᴅɪʀ.
-๏ /speedtest : ʙᴏᴛʟᴀʀ ꜱᴇʀᴠᴇʀɪɴᴅƏ ꜱÜʀƏᴛ ᴛᴇꜱᴛɪɴɪ ʜƏʏᴀᴛᴀ ᴋᴇÇɪʀɪʀ.
-๏ /sysstats : ʙᴏᴛʟᴀʀ ꜱᴇʀᴠᴇʀɪɴɪɴ ꜱɪꜱᴛᴇᴍ ꜱᴛᴀᴛɪꜱᴛɪᴋᴀꜱɪɴɪ ɢÖꜱᴛƏʀɪʀ.
-๏ /setname [ᴍƏᴛɴ ᴠƏ ʏᴀ ᴍƏᴛɴƏ ᴄᴀᴠᴀʙ] : ᴋÖᴍƏᴋÇɪ ʜᴇꜱᴀʙɪɴɪɴ ᴀᴅɪɴɪ ᴅƏʏɪŞᴅɪʀɪɴ.
-๏ /setbio [ᴍƏᴛɴ ᴠƏ ʏᴀ ᴍƏᴛɴƏ ᴄᴀᴠᴀʙ] : ᴋÖᴍƏᴋÇɪ ʜᴇꜱᴀʙɪɴɪɴ ʙɪᴏ-ɴᴜ ᴅƏʏɪŞᴅɪʀɪɴ.
-๏ /setpfp [ꜰᴏᴛᴏʏᴀ ᴄᴀᴠᴀʙ ᴠᴇʀɪɴ] : ᴋÖᴍƏᴋÇɪ ʜᴇꜱᴀʙɪɴɪɴ ᴘꜰᴘ-ɴɪ ᴅƏʏɪŞᴅɪʀɪɴ.
-๏ /delpfp : ᴋÖᴍƏᴋÇɪ ʜᴇꜱᴀʙɪɴɪɴ ᴄᴀʀɪ ᴘꜰᴘ-ɴɪ ꜱɪʟɪɴ.
+๏ /activevc : Hazırda Aktiv Səsli Söhbətlərin Siyahısın Göstərir .
+๏ /eval və ya /sh : Verilmiş Kodu Bot Terminalında İşlədir.
+๏ /speedtest : Botlar Serverində Sürət Testini Həyata Keçirir.
+๏ /sysstats : Botlar Serverinin Sistem Statiskasım Həyata Keçirir .
+๏ /setname [Mətn Və Ya Mətnə Cavab] : Köməkçi Hesabının Adını Dəyişdirin .
+๏ /setbio [Mətn Və Ya Mətnə Cavab] :  Köməkçi Hesabının Bio-nu Dəyişdirin .
+๏ /setpfp [Fotoya Cavab Verin] : Köməkçi Hesabının  .
+๏ /delpfp : Köməkçi Hesabının PFP-Nı Silin.
 •━━━━━━━━•••━━━━━━━━•
-"""
+""""
 
 HELP_DEV = f"""
-<u>✨ **ꜱᴀʜɪʙ Əᴍʀ ᴠᴇʀɪʀ {BOT_NAME} :**</u>
+<u>✨ **Sahib Əmr Verir {BOT_NAME} :**</u>
 
 •━━━━━━━━•••━━━━━━━━•
 ๏ /config : ʙᴏᴛᴜɴ ʙÜᴛÜɴ ᴋᴏɴꜰɪQᴜʀᴀꜱɪʏᴀ ᴅƏʏɪŞƏɴʟƏʀɪɴɪ ƏʟᴅƏ ᴇᴛᴍƏᴋ ÜÇÜɴ.
@@ -63,14 +66,14 @@ HELP_DEV = f"""
 """
 TAG_MSJ = f"""
 •━━━━━━━━•••━━━━━━━━•
-**“📚 ƏᴍʀʟƏʀ„ ʙᴜɴʟᴀʀᴅɪʀ.⤵**
+**“📚 Əmrlər„ Bunlardır.⤵**
 •━━━━━━━━•••━━━━━━━━•
-**㋡⇰ /tag “ꜱƏʙƏʙ„ - 5-ʟɪ ᴛᴀɢ ᴀᴛɪŞʟᴀʀɪ.**
-**㋡⇰ /etag “ꜱƏʙƏʙ„ - ᴇᴍᴏᴊɪ ɪʟƏ ᴇᴛɪᴋᴇᴛʟƏʀ.**
-**㋡⇰ /stag “ꜱƏʙƏʙ„ - ꜱÖᴢ'ʟÜ ᴛᴀɢ ᴇᴛɪᴋᴇᴛʟƏʀ.**
-**㋡⇰ /tektag “ꜱƏʙƏʙ„ - ÜᴢᴠʟƏʀɪ ᴛƏᴋ-ᴛƏᴋ ᴇᴛɪᴋᴇᴛʟƏʀ.**
-**㋡⇰ /ctag “ꜱƏʙƏʙ„ - ᴄÜᴍʟᴇ ɪʟᴇ  ᴇᴛɪᴋᴇᴛʟƏʀ.**
-**㋡⇰ /admins “ꜱƏʙƏʙ„ - İᴅᴀʀƏÇɪʟƏʀ ᴛƏᴋ-ᴛƏᴋ ᴇᴛɪᴋᴇᴛʟƏʀ.**
-**㋡⇰ /cancel - ᴛᴀɢ ƏʟƏᴍƏʏɪ ᴅᴀʏᴀɴᴅɪʀ.**
+**㋡⇰ /tag “Səbəb„ - 5-Lı Tağ Atışları.**
+**㋡⇰ /etag “Səbəb„ - Emoji İlə Etiketlər.**
+**㋡⇰ /stag “Səbəb„ - Söz'Lü Tag Etiketlər.**
+**㋡⇰ /tektag “Səbəb„ - Üzvləri Tək-Tək Etiletlər.**
+**㋡⇰ /ctag “Səbəb„ - Cümlə İlə  Etiketlər.**
+**㋡⇰ /admins “Səbəb„ - İdarəçiləri Tək-Tək Etiketlər.**
+**㋡⇰ /cancel - Tag Eləməyi Dayandırır.**
 •━━━━━━━━•••━━━━━━━━•
 """
