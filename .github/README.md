@@ -7,8 +7,7 @@
 
 <b> 🚀 Heroku Deploy </b>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)]
-(https://github.com/amin3169/MusicTagBot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/amin3169/MusicTagBot.git)
 
 
 
