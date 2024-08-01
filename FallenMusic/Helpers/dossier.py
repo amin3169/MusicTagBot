@@ -50,7 +50,7 @@ HELP_SUDO = f"""
 ๏ /setpfp [Fotoya Cavab Verin] : Köməkçi Hesabının  .
 ๏ /delpfp : Köməkçi Hesabının PFP-Nı Silin.
 •━━━━━━━━•••━━━━━━━━•
-""""
+"""
 
 HELP_DEV = f"""
 <u>✨ **Sahib Əmr Verir {BOT_NAME} :**</u>
