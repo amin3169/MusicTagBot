@@ -30,17 +30,17 @@ async def fallen_st(_, message: Message):
                     link = result["link"]
                     published = result["publishedTime"]
                 searched_text = f"""
-➻ **ᴍƏʟᴜᴍᴀᴛɪ ɪᴢʟƏʏɪɴ** 
+➻ **Məlumatı  İzləyin** 
 
-📌 **ʙᴀŞʟɪQ :** {title}
+📌 **Başlıq :** {title}
 
-⏳ **ᴍÜᴅᴅƏᴛ :** {duration} ᴍɪɴᴜᴛᴇs
-👀 **ʙᴀxɪŞʟᴀʀ :** `{views}`
-⏰ **ᴅƏʀᴄ ᴏʟᴜɴᴜʙ :** {published}
-🔗 **ʟɪɴᴋ :** [Youtube-da izləyin]({link})
-🎥 **ᴋᴀɴᴀʟ :** [{channel}]({channellink})
+⏳ **Müddət :** {duration} ᴍɪɴᴜᴛᴇs
+👀 **Baxışlar :** `{views}`
+⏰ **Dərc Olunub :** {published}
+🔗 **Link :** [Youtube-da izləyin]({link})
+🎥 **Kanal :** [{channel}]({channellink})
 
-📡 ᴀxᴛᴀʀɪŞ ᴅƏꜱᴛƏᴋʟƏɴɪʀ {BOT_NAME}"""
+📡 Axtarış Dəstəklənir {BOT_NAME}"""
                 key = InlineKeyboardMarkup(
                     [
                         [
