@@ -4,7 +4,7 @@ PM_START_TEXT = """
 Salam {0},Mənim Adım {1}.
 
 ──────────────────
-Bs Mp3 Bot'una Xoş Gəldin ⚜
+Rae Music Bot'una Xoş Gəldin ⚜
 
 Qrupunuza Əlavə Etməklə
 Musiqi Dinləyə Bilərsiniz. 🎧
