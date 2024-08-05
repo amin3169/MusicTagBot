@@ -186,7 +186,7 @@ async def help_menu(_, query: CallbackQuery):
 
     try:
         await query.edit_message_text(
-            text=f"๏ Salam {query.from_user.first_name}, 🥀\n\nlütfən, kömək almaq istədiyiniz aşağıdakı düyməyə klikləyin.",
+            text=f"๏ Salam {query.from_user.first_name}, \n\nlütfən, kömək almaq istədiyiniz aşağıdakı düyməyə klikləyin.",
             reply_markup=InlineKeyboardMarkup(helpmenu),
         )
     except Exception as e:
