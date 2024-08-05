@@ -15,11 +15,11 @@ async def get_vars(_, message: Message):
             chat_id=int(config.OWNER_ID),
             text=f"""<u>**{BOT_NAME} Dəyişənləri konfiqurasiya edin :**</u>
 
-**ᴀᴘɪ_ɪᴅ :** `{config.API_ID}`
-**ᴀᴘɪ_ʜᴀsʜ :** `{config.API_HASH}`
+**Api İd:** `{config.API_ID}`
+**Api Hash :** `{config.API_HASH}`
 
-**ʙᴏᴛ_ᴛᴏᴋᴇɴ :** `{config.BOT_TOKEN}`
-**ᴅᴜʀᴀᴛɪᴏɴ_ʟɪᴍɪᴛ :** `{config.DURATION_LIMIT}`
+**Bot Token :** `{config.BOT_TOKEN}`
+**Duration_Limit :** `{config.DURATION_LIMIT}`
 
 **ᴏᴡɴᴇʀ_ɪᴅ :** `{config.OWNER_ID}`
 **sᴜᴅᴏ_ᴜsᴇʀs :** `{config.SUDO_USERS}`
